@@ -1,0 +1,238 @@
+body
+{
+    background: url("Images/papier_dechire_2.1.png") no-repeat scroll top left, 
+    url("Images/papier_dechire_footer_2.0.png") no-repeat bottom left, 
+    url("Images/bande_nav_droite_ombres.png") top right repeat-y scroll,
+    url("Images/school_paper_2.2.jpg") scroll;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('Polices/caviar_dreams/CaviarDreams-webfont.eot');
+    src: url('Polices/caviar_dreams/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/caviar_dreams/CaviarDreams-webfont.woff2') format('woff2'),
+         url('Polices/caviar_dreams/CaviarDreams-webfont.woff') format('woff'),
+         url('Polices/caviar_dreams/CaviarDreams-webfont.ttf') format('truetype'),
+         url('Polices/caviar_dreams/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'impact_label_reversedregular';
+    src: url('Polices/impact_label/Impact_Label_Reversed-webfont.eot');
+    src: url('Polices/impact_label/Impact_Label_Reversed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/impact_label/Impact_Label_Reversed-webfont.woff2') format('woff2'),
+         url('Polices/impact_label/Impact_Label_Reversed-webfont.woff') format('woff'),
+         url('Polices/impact_label/Impact_Label_Reversed-webfont.ttf') format('truetype'),
+         url('Polices/impact_label/Impact_Label_Reversed-webfont.svg#impact_label_reversedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('Polices/pt_sans/PTS55F-webfont.eot');
+    src: url('Polices/pt_sans/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/pt_sans/PTS55F-webfont.woff2') format('woff2'),
+         url('Polices/pt_sans/PTS55F-webfont.woff') format('woff'),
+         url('Polices/pt_sans/PTS55F-webfont.ttf') format('truetype'),
+         url('Polices/pt_sans/PTS55F-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'indubitablyregular';
+    src: url('Polices/indubitably/INDUBITA-webfont.eot');
+    src: url('Polices/indubitably/INDUBITA-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/indubitably/INDUBITA-webfont.woff2') format('woff2'),
+         url('Polices/indubitably/INDUBITA-webfont.woff') format('woff'),
+         url('Polices/indubitably/INDUBITA-webfont.ttf') format('truetype'),
+         url('Polices/indubitably/INDUBITA-webfont.svg#indubitablyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '3dumbregular';
+    src: url('Polices/3dumb/3Dumb-webfont.eot');
+    src: url('Polices/3dumb/3Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/3dumb/3Dumb-webfont.woff2') format('woff2'),
+         url('Polices/3dumb/3Dumb-webfont.woff') format('woff'),
+         url('Polices/3dumb/3Dumb-webfont.ttf') format('truetype'),
+         url('Polices/3dumb/3Dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section
+{
+    width: 1000px; margin: 110px 0 50px 215px; 
+}
+
+section p
+{
+    margin: 0 0 0 100px;
+}
+
+aside
+{
+    margin:100px 0 0 20px; width:1400px;
+}
+
+footer
+{
+    width: 1000px; margin: 300px 0 25px 250px; font-size: 0.85em;
+}
+
+h1
+{
+	font-family:'3dumbregular', 'indubitablyregular', 'pt_sansregular', 'impact_label_reversedregular', "Trebuchet MS", serif; font-size:5.3em; text-align: center;
+    text-shadow: 20px 17px 6px rgb(110,110,110) ; margin: 0 0 0 0;
+}
+
+h2
+{
+	font-family:'impact_label_reversedregular'; font-size:2em;
+}
+
+h3
+{
+    font-family:'caviar_dreamsregular'; font-weight:bold; font-size:1.4em;
+}
+
+p
+{
+	font-family: 'caviar_dreamsregular', "Trebuchet Ms"; font-size:1.25em; font-weight: bold;
+}
+
+ul
+{
+    font-family:'caviar_dreamsregular', "Trebuchet Ms"; font-size:1.25em; font-weight:bold; margin: 10px 0 10px 30px;
+}
+
+ol
+{
+     font-family:'caviar_dreamsregular', "Trebuchet Ms"; font-size:1.1em; font-weight:bold; margin: 10px 0 10px 30px;
+}
+
+.navigateur
+{
+    text-align: justify;
+    float:top-right;
+    display: block;
+    width:200px;
+    position:absolute;
+    top: 360px; right: 30px;
+}
+
+nav p
+{
+    font-family: 'impact_label_reversedregular';
+    text-align:center;
+    font-size: 2em;
+}
+
+a
+{
+    color:rgb(80, 132, 230);
+    text-decoration: : none;
+}
+
+a:hover
+{
+    color:rgb(110,110,110);
+}
+
+            /*Partie propre à la page 1*/
+
+
+.Wegera_Quentin
+{
+    font-size:7.3em;
+    margin:0 0 0 0;
+}
+
+.intro
+{
+    margin: 197px 0 0 215px;
+}
+
+.dernier_paragrapge_page_1
+{
+    margin-bottom: 300px;
+}
+
+.professionnel
+{
+    text-decoration: underline;
+}
+
+.liste_a_puces_page_1
+{
+    font-family:'caviar_dreamsregular', "Trebuchet Ms"; font-size:1.25em; font-weight:bold; margin: 10px 0 10px 120px;
+}
+
+            /*Partie propre à la page infos persos*/
+
+.presentation_page_2
+{
+    text-align: center; 
+    margin: 20px 0 0 0;
+}
+
+.sommaire_page_infos_persos
+{
+    margin: 207px 0 50px 215px;
+}
+
+.para_avant_img
+{
+    margin-bottom: 10px;
+}
+
+.zaquemus
+{
+    position:absolute;
+    top: 3050px;
+    left: 243px;
+}
+
+.original_clancy
+{
+    position:absolute;
+    top: 2990px;
+    left: 260px;
+}
+
+.original_joker
+{
+    position:absolute;
+    top: 2990px;
+    left: 590px;
+}
+
+.para_apres_img
+{
+    margin-top: 540px;
+}
+
+            /*Partie propre à la page parcoursup*/
+
+.titre_page_parcoursup
+{
+    font-family:'3dumbregular','Trebuchet MS';
+    margin: 0 0 0 0
+}
+.presentation_parcoursup
+{
+    text-align: center;
+    width:70%;
+    margin:auto;
+    margin-top: 17px;
+}
